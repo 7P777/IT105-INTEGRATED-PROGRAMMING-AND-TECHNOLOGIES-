@@ -16,7 +16,7 @@ submit.addEventListener("click", function (){
 		
 		if(product == products[0]) {
 			var output = document.getElementById("output");
-			output.innerHTML = '<br><p>Name: Toy1</p><br><img src="toy1.jpeg" width="100px" height="100px"><br><label>Quantity</label><br><input id="quantity" placeholder="1~12"><br><button id="buy">Buy</button>';
+			output.innerHTML = '<br><p>Name: Toy1</p><br><img src="toy1.jpg" width="100px" height="100px"><br><label>Quantity</label><br><input id="quantity" placeholder="1~12"><br><button id="buy">Buy</button>';
 			var buy = document.getElementById("buy");
 			buy.addEventListener("click", function buy(){
 				output.innerHTML = "<p>Thank you!</p>";
